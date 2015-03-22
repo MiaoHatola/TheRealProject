@@ -41,13 +41,6 @@
   <ItemGroup>
     <Compile Include="databaseHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sqlHandler.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary2\Database.csproj">
-      <Project>{68191637-290a-4c83-91ef-b1aad81ce5d0}</Project>
-      <Name>Database</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
