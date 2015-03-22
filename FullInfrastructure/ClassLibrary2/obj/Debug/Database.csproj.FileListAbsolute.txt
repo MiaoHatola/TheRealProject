@@ -3,3 +3,8 @@ C:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\ClassLibr
 C:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\ClassLibrary2\obj\Debug\Database.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\ClassLibrary2\obj\Debug\ClassLibrary2.dll
 C:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\ClassLibrary2\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

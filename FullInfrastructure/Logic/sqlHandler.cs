@@ -108,7 +108,7 @@ namespace Logic
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    Console.WriteLine(reader.GetString(0) + " " + reader.GetString(1) + " makes " + reader.GetInt32(2)+"and was born on "+reader.GetString(2));
+                    Console.WriteLine(reader.GetString(0) + " " + reader.GetString(1) + " makes " + reader.GetInt32(2)+" and was born on "+reader.GetInt32(2));
                 }
                 reader.Close();
                 conn.Close();
