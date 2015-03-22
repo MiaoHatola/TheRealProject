@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\FullInfrastructure\FullInfrastructure\bin\Debug\FullInfrastructure.exe.config
+c:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\FullInfrastructure\obj\Debug\FullInfrastructure.csprojResolveAssemblyReference.cache
+c:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\FullInfrastructure\bin\Debug\FullInfrastructure.exe
+c:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\FullInfrastructure\bin\Debug\FullInfrastructure.pdb
+c:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\FullInfrastructure\obj\Debug\FullInfrastructure.exe
+c:\Users\User\Documents\Visual Studio 2013\Projects\FullInfrastructure\FullInfrastructure\obj\Debug\FullInfrastructure.pdb
