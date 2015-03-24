@@ -11,7 +11,8 @@ namespace UI
     {
         static void Main(string[] args)
         {
-            introSequence();
+            Logic.databaseHandler.initDatabase();
+            //introSequence();
         }
         static void introSequence()
         {

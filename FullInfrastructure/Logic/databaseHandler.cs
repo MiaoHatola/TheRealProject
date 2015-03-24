@@ -7,9 +7,9 @@ using Database;
 
 namespace Logic
 {
-    class databaseHandler
+    public class databaseHandler
     {
-        public void initDatabase()
+        public static void initDatabase()
         {
             employeeDB employees=new employeeDB(false);
             if(!employees.load())

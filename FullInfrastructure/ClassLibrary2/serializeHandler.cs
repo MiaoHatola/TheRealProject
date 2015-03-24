@@ -21,14 +21,16 @@ namespace Database
 
         public serializeHandler()
         {
-            RMCrypto.Padding = PaddingMode.Zeros;           
+            RMCrypto.Padding = PaddingMode.Zeros;
         }
-        public void serialize(string filename,object toSave)
+        public void serialize(string filename, object toSave)
         {
-            myFileStream = File.Create(filename);
-            CryptStream = new CryptoStream(myFileStream, RMCrypto.CreateEncryptor(Key,IV), CryptoStreamMode.Write);
-            ser.Serialize(CryptStream, toSave);
+            File.Delete(filename);
+            myFileStream = File.Open(filename, FileMode.CreateNew);
+            CryptStream = new CryptoStream(myFileStream, RMCrypto.CreateEncryptor(Key, IV), CryptoStreamMode.Write);
+            ser.Serialize(CryptStream, (Object)toSave);
             CryptStream.FlushFinalBlock();
+            myFileStream.Flush();
             CryptStream.Close();
             myFileStream.Close();
         }
@@ -36,11 +38,11 @@ namespace Database
         {
             if (File.Exists(filename))
             {
-                myFileStream = File.OpenRead(filename);
+                myFileStream = File.Open(filename, FileMode.Open);
+                myFileStream.Position = 0;
                 CryptStream = new CryptoStream(myFileStream, RMCrypto.CreateDecryptor(Key, IV), CryptoStreamMode.Read);
-                Object toReturn = (ser.Deserialize(CryptStream) as Object);
+                Object toReturn = (Object)(ser.Deserialize(CryptStream));
                 myFileStream.Close();
-                CryptStream.Close();
                 return toReturn;
             }
             return null;
