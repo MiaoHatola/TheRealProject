@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    
+    [Serializable]
     class department
     {
         private int ID=1;
@@ -29,6 +29,7 @@ namespace Database
             this.name = name;
         }
     }
+    [Serializable]
     class Employee : person
     {
         private int departmentID;
@@ -70,6 +71,7 @@ namespace Database
         }//change employee supervisor
     }//TODO talk about clearence
     enum paymentMethod {check,cash}
+    [Serializable]
     class transaction
     {
         private int transactionID=1;
@@ -103,6 +105,7 @@ namespace Database
         }
     }
     enum Type { }
+    [Serializable]
     class product
     {
         private int ProductID = 1;
@@ -128,6 +131,7 @@ namespace Database
             return this.Type;
         }
     }
+    [Serializable]
     class user
     {
         private string name;
@@ -147,6 +151,7 @@ namespace Database
             return this.id;
         }
     }
+    [Serializable]
     class ClubMember : person
     {
         private int memberID;
@@ -174,6 +179,7 @@ namespace Database
         }   
     }
     enum gender { Male, Secretary }
+    [Serializable]
     abstract class person
     {
         private int teudatZehute;
