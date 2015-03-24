@@ -30,14 +30,14 @@ namespace Database
         }
     }
     [Serializable]
-    class Employee : person
+    class employee : person
     {
         private int departmentID;
         private int salary;
         private int supervisorID;
         private string clear;
 
-        public Employee(int TZ, string FN, string LN, gender G, int dID, int salary, int sID, string clear)
+        public employee(int TZ, string FN, string LN, gender G, int dID, int salary, int sID, string clear)
             : base(TZ, FN, LN, G)
         {
             this.departmentID = dID;
@@ -152,13 +152,13 @@ namespace Database
         }
     }
     [Serializable]
-    class ClubMember : person
+    class clubMember : person
     {
         private int memberID;
         private List<int> historyTransactionID;
         private string dateOfBirth;
 
-        public ClubMember(int TZ, string FN, string LN, gender G, int mID, string dOB)
+        public clubMember(int TZ, string FN, string LN, gender G, int mID, string dOB)
             : base(TZ, FN, LN, G)
         {
             this.memberID = mID;
