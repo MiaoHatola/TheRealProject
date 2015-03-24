@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    
+    [Serializable]
     class department
     {
         private int ID=1;
@@ -29,14 +29,15 @@ namespace Database
             this.name = name;
         }
     }
-    class Employee : person
+    [Serializable]
+    class employee : person
     {
         private int departmentID;
         private int salary;
         private int supervisorID;
         private string clear;
 
-        public Employee(int TZ, string FN, string LN, gender G, int dID, int salary, int sID, string clear)
+        public employee(int TZ, string FN, string LN, gender G, int dID, int salary, int sID, string clear)
             : base(TZ, FN, LN, G)
         {
             this.departmentID = dID;
@@ -70,6 +71,7 @@ namespace Database
         }//change employee supervisor
     }//TODO talk about clearence
     enum paymentMethod {check,cash}
+    [Serializable]
     class transaction
     {
         private int transactionID=1;
@@ -103,6 +105,7 @@ namespace Database
         }
     }
     enum Type { }
+    [Serializable]
     class product
     {
         private int ProductID = 1;
@@ -128,6 +131,7 @@ namespace Database
             return this.Type;
         }
     }
+    [Serializable]
     class user
     {
         private string name;
@@ -147,13 +151,14 @@ namespace Database
             return this.id;
         }
     }
-    class ClubMember : person
+    [Serializable]
+    class clubMember : person
     {
         private int memberID;
         private List<int> historyTransactionID;
         private string dateOfBirth;
 
-        public ClubMember(int TZ, string FN, string LN, gender G, int mID, string dOB)
+        public clubMember(int TZ, string FN, string LN, gender G, int mID, string dOB)
             : base(TZ, FN, LN, G)
         {
             this.memberID = mID;
@@ -174,6 +179,7 @@ namespace Database
         }   
     }
     enum gender { Male, Secretary }
+    [Serializable]
     abstract class person
     {
         private int teudatZehute;
