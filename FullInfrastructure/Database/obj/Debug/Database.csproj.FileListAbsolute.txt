@@ -3,3 +3,8 @@ c:\Users\User\documents\visual studio 2013\Projects\UI\Database\bin\Debug\Databa
 c:\Users\User\documents\visual studio 2013\Projects\UI\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
 c:\Users\User\documents\visual studio 2013\Projects\UI\Database\obj\Debug\Database.dll
 c:\Users\User\documents\visual studio 2013\Projects\UI\Database\obj\Debug\Database.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\Database\bin\Debug\Database.dll
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\Database\bin\Debug\Database.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\Database\obj\Debug\Database.dll
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\Database\obj\Debug\Database.pdb
