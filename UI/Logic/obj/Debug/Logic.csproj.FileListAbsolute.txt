@@ -1,7 +1,0 @@
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\bin\Debug\Logic.dll
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\bin\Debug\Logic.pdb
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\bin\Debug\Database.dll
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\bin\Debug\Database.pdb
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\obj\Debug\Logic.dll
-c:\Users\User\documents\visual studio 2013\Projects\UI\Logic\obj\Debug\Logic.pdb

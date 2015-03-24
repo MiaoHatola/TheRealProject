@@ -1,0 +1,20 @@
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\UI.exe.config
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\UI.exe
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\UI.pdb
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\Logic.dll
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\Database.dll
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\Logic.pdb
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\bin\Debug\Database.pdb
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\obj\Debug\UI.exe
+c:\users\user\documents\visual studio 2013\Projects\UI\UI\obj\Debug\UI.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\UI.exe.config
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\obj\Debug\UI.exe
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\obj\Debug\UI.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\UI.exe
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\UI.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\Logic.dll
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\Database.dll
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\Logic.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\bin\Debug\Database.pdb
+C:\Users\User\Documents\GitHub\TheRealProject\FullInfrastructure\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
